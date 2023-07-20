@@ -1,0 +1,56 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f0f0f0;
+}
+
+/*Game */
+
+.game {
+  position: relative;
+  width: 400px;
+  height: 200px;
+  border: 2px solid #333;
+  background-color: #f0f0f0;
+  overflow: hidden;
+}
+
+/*Rods*/
+
+.rod {
+  position: absolute;
+  width: 100px;
+  height: 20px;
+  background-color: #333;
+  color:white;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+}
+
+/*Rod1*/
+
+#topRod {
+  top: 0;
+}
+
+/*Rod2*/
+
+#bottomRod {
+  bottom: 0;
+}
+
+/*Ball*/
+
+.ball {
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-color: red;
+/*  z-index: 1;
+*/  border-radius: 50%;
+}
